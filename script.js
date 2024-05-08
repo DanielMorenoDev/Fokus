@@ -85,7 +85,7 @@ const cuentaRegresiva = () => {
     console.log("Temporizador:" +tiempoTranscurridoEnSegundos)
 }
 
-botonIniciarPausar.addEventListener('click', ciniciarPausar)
+botonIniciarPausar.addEventListener('click', iniciarPausar)
 
 function iniciarPausar(){
     if(idIntervalo){
