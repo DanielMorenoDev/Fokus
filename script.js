@@ -37,7 +37,7 @@ botonCorto.addEventListener('click', () => {
 })
 
 botonEnfoque.addEventListener('click', () => {
-    tiempoEnPantalla = 1500
+    tiempoTranscurridoEnSegundos = 1500
     cambiarContexto('enfoque')
     botonEnfoque.classList.add('active')
 })
